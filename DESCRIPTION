@@ -1,0 +1,18 @@
+Package: smog
+Type: Package
+Title: Structural Modeling by using Overlapped Group Penalty
+Version: 1.0
+Date: 2018-10-12
+Author: Chong Ma
+Maintainer: Chong Ma <chong.ma@yale.edu>
+Description: This R package is built for selecting the true predictor 
+    variables in the generalized linear model, among a large scale of 
+    predictor variables, by following the specificed hierarchical 
+    structures. The function glog is implemented by combining the ISTA 
+    and ADMM algorithms, and works for continuous, multimonial and survival data. 
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.18), coxed
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 6.0.1
+NeedsCompilation: yes
+Packaged: 2018-10-14 05:53:04 UTC; chongma

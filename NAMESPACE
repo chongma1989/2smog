@@ -1,0 +1,4 @@
+useDynLib(smog)
+importFrom(Rcpp, evalCpp)
+importFrom(coxed, sim.survdata)
+exportPattern("^[[:alpha:]]+")
